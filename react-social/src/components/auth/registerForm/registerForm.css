@@ -1,0 +1,31 @@
+.register-form input {
+    height: 3.4rem;
+    border-radius: 1rem;
+}
+
+.register-form button {
+    height: 3.4rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .register-form input, .register-form .auth-button {
+        width: 100%;
+    }
+    .register-form .info input {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .register-form input, .register-form .auth-button {
+        width: 85%;
+    }
+    .register-form .info input {
+        width: 45%;
+    }
+    .register-form .info {
+        margin-left: 2.5rem;
+    }
+}

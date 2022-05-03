@@ -1,0 +1,10 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 18vw auto 20vw;
+    column-gap: 2rem;
+    position: relative;
+    top: 5.4rem;
+}
+

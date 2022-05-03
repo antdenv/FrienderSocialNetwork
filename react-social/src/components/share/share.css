@@ -1,0 +1,82 @@
+.create-post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: 1rem;
+}
+
+.share-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.share-image {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.share-cancel {
+    cursor: pointer;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    opacity: 0.8;
+}
+
+.share-image img {
+    border-radius: 1rem;
+}
+
+.create-post .create-btn {
+    margin-left: 1rem;
+    padding: 0.6rem 1rem;
+}
+
+.create-post input[type='text'] {
+    justify-self: flex-start;
+    width: 150%;
+    padding-left: 1rem;
+    background: transparent;
+    color: var(--color-dark);
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
+
+.create-post .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 10;
+}
+
+.create-post .profile img {
+    width: 3rem;
+    height: 2.7rem;
+}
+
+.create-post .interaction {
+    flex: 2;
+}
+
+.interaction .shareOptions {
+    display: flex;
+}
+
+.interaction .shareOptions .shareOption {
+    display: flex;
+    align-items: center;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.interaction .shareOptions .shareOption span {
+    margin-left: 0.4rem;
+    font-size: 0.9rem;
+}
+
+#file {
+    display: none;
+}

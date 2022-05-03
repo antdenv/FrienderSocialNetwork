@@ -1,0 +1,124 @@
+.login-page {
+    display: grid;
+    grid-template-columns: 54% 46%;
+    color: var(--color-white);
+    background: var(--color-black);
+    width: 100%;
+}
+
+.background-picture {
+    background: url('../../static/bg.png') no-repeat;
+    height: 100vh;
+}
+
+.children {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.children form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 90%;
+}
+
+form h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    padding: var(--btn-padding);
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: white;
+}
+
+.auth-button {
+    width: 26vw;
+    padding: 1rem 2rem;
+}
+
+.text-bold {
+    font-weight: 500;
+}
+
+.auth-link, .register-link, .forget-link {
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.auth-link:hover, .register-link:hover, .forget-link:hover  {
+    opacity: 0.8;
+}
+
+.login-page input {
+    background: var(--color-light);
+    width: 26vw;
+    font-size: 0.95rem;
+    color: var(--color-dark);
+    border-radius: var(--border-radius);
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.login-page input::placeholder {
+    color: var(--color-gray);
+}
+
+.forget-link {
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.register-link, .auth-link {
+    margin-left: 0.7rem;
+}
+
+.info {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.info input {
+    width: 12.7vw;
+}
+
+.auth-form, .forget-form {
+    margin-top: 12rem;
+}
+
+.register-form {
+    margin-top: 11rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .login-page {
+        grid-template-columns: 0% 100%;    
+    }
+}

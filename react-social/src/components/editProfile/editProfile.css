@@ -1,0 +1,21 @@
+#cover, #avatar {
+    display: none;
+}
+
+.avatar-pre {
+    border-radius: 1rem;
+    width: 30%;
+    height: auto;
+}
+
+.edit-info {
+    display: flex;
+}
+
+.edit-inputs {
+    flex: 10;
+}
+
+.avatar-image-container {
+    flex: 2;
+}

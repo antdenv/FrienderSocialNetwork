@@ -1,0 +1,123 @@
+.rightbar {
+    height: max-content;
+    position: sticky;
+    top: var(--sticky-top-left);
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--card-padding);
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  column-gap: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.profile-rightbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 1.3rem;
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    column-gap: 1rem;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.birthdayImg {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 0;
+}
+
+.birthdayText {
+  font-weight: 300;
+  font-size: 0.95rem;
+}
+
+.rightbarFriendList {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: var(--card-padding);
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  column-gap: 1rem;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.rightbarTitle{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.rightbarInfo{
+  margin-bottom: 1rem;
+}
+
+.rightbarInfoItem{
+  margin-bottom: 0.5rem;
+}
+
+.rightbarInfoKey{
+  font-weight: 500;
+  margin-right: 1rem;
+  color: #555;
+}
+
+.rightbarInfoValue{
+  font-weight: 300;
+}
+
+.rightbarFollowings{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.2rem;
+  grid-row-gap: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.rightbarFollowing{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg{
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.friend_buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.edit-profile {
+  margin-bottom: 1rem;
+}
+
+.rightbarInfoItem .city-input {
+  width: 70%;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+select {
+  color: black;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+}
